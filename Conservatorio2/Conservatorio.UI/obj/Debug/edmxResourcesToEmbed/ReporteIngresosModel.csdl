@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Reportes" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ObtenerReporteIngresos" ReturnType="Collection(Reportes.ObtenerReporteIngresos_Result)">
+      <Parameter Name="ano" Mode="In" Type="Int32" />
+      <Parameter Name="periodo" Mode="In" Type="Int32" />
+      <Parameter Name="mes" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ObtenerReporteIngresos_Result">
+    <Property Type="Int32" Name="IdPersona" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="255" />
+    <Property Type="Decimal" Name="Matricula" Nullable="true" Precision="38" Scale="5" />
+    <Property Type="Double" Name="Mensualidad" Nullable="true" />
+    <Property Type="Double" Name="Multa" Nullable="true" />
+  </ComplexType>
+</Schema>

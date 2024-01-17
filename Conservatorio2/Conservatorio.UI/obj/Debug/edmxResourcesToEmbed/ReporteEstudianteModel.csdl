@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Reportes" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ConservatorioNHibernateEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ObtenerReporteEstudiante" ReturnType="Collection(Reportes.ObtenerReporteEstudiante_Result)">
+      <Parameter Name="IdEstudiante" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ObtenerReporteEstudiante_Result">
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="Tipo" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="NombreCurso" Nullable="false" MaxLength="255" />
+    <Property Type="Single" Name="Nota" Nullable="true" />
+    <Property Type="Int32" Name="Nivel" Nullable="false" />
+    <Property Type="Int32" Name="Periodo" Nullable="true" />
+    <Property Type="Int32" Name="Ano" Nullable="true" />
+    <Property Type="Boolean" Name="Estado" Nullable="false" />
+  </ComplexType>
+</Schema>

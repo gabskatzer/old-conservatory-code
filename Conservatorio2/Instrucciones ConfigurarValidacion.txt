@@ -1,0 +1,6 @@
+1. Agregar un Control del Toolbox, ErrorProvider
+2. Agregar metodo ConfigurarValidacion y configurar las validaciones respectivas
+3. Llamar al metodo ConfigurarValidacion en el constructor
+4. Al Control de ErrorProvider: BlinkStyle=NeverBlink, Name: errorProvider
+5. Al Form: AutoValidate=EnableAllowFocusChange
+6. Al metodo del click del boton: agregar condicion de ValidateChildren

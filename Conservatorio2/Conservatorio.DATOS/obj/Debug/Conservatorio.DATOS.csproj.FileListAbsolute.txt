@@ -1,0 +1,14 @@
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\Conservatorio.DATOS.dll.config
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\Conservatorio.DATOS.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\Conservatorio.DATOS.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\FluentNHibernate.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\Iesi.Collections.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\NHibernate.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\NHibernate.Mapping.Attributes.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\FluentNHibernate.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\FluentNHibernate.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\Iesi.Collections.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\bin\Debug\NHibernate.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\obj\Debug\Conservatorio.DATOS.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\obj\Debug\Conservatorio.DATOS.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.DATOS\obj\Debug\Conservatorio.DATOS.csprojResolveAssemblyReference.cache

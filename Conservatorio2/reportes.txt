@@ -1,0 +1,64 @@
+HISTORIAL ESTUDIANTES
+
+create procedure ObtenerReporteEstudiante
+(
+	@IdEstudiante int
+)
+as
+	select p.Nombre, e.Tipo, cr.NombreCurso, rn.Nota, cr.Nivel, c.Periodo, c.Ano,   p.Estado
+	from Estudiante e
+	inner join Persona p 
+	on p.IdPersona = e.IdEstudiante
+	inner join RegistroNota rn
+	on e.IdEstudiante = rn.IdEstudiante
+	inner join Clase c 
+	on c.IdClase = rn.IdClase
+	inner join Curso cr
+	on cr.IdCurso = c.IdCurso
+	where e.IdEstudiante = @IdEstudiante
+	order by cr.Nivel asc;
+
+
+
+
+REPORTE INGRESOS
+
+create procedure ObtenerReporteIngresos(
+@ano int,
+@periodo int null,
+@mes nvarchar(255) null
+)
+as
+	select p.IdPersona, p.Nombre, Matricula = coalesce(mat.matricula, 0), Mensualidad = coalesce(men.mensualidad, 0), Multa = coalesce(men.multa, 0)
+	from Estudiante e
+	inner join Persona p
+	on p.IdPersona = e.IdEstudiante
+	left join (
+		select p.IdPersona, matricula = sum(mat.monto)
+		from Estudiante e
+		inner join Persona p
+		on p.IdPersona = e.IdEstudiante
+		left join PagoMatricula mat
+		on p.IdPersona = mat.IdEstudiante
+		where mat.Año = @ano
+		and (mat.Periodo = @periodo or (mat.Periodo = 1 and @mes = 'Febrero')
+									or (mat.Periodo = 2 and @mes = 'Agosto'))
+		group by p.IdPersona
+	) mat
+	on p.IdPersona = mat.IdPersona
+	left join (
+		select p.IdPersona, mensualidad = sum(men.monto), multa = sum(men.multa)
+		from Estudiante e
+		inner join Persona p
+		on p.IdPersona = e.IdEstudiante
+		left join PagoMensualidad men
+		on p.IdPersona = men.IdEstudiante
+		where men.Ano = @ano 
+		and (men.Mes = @mes or (@periodo = 1 and men.Mes in ('Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio')) 
+							or (@periodo = 2 and men.Mes in ('Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre')))
+		group by p.IdPersona
+	) men
+	on p.IdPersona = men.IdPersona;
+
+
+

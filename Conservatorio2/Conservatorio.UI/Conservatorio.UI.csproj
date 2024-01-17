@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EmguCV.3.1.0.1\build\EmguCV.props" Condition="Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B31B5DE-7FB4-40CD-B7DE-7FD54101E342}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Conservatorio.UI</RootNamespace>
+    <AssemblyName>Conservatorio.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV.UI, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmguCV.3.1.0.1\lib\net30\Emgu.CV.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmguCV.3.1.0.1\lib\net30\Emgu.CV.UI.GL.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emgu.CV.World, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmguCV.3.1.0.1\lib\net30\Emgu.CV.World.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.1.1.2225.0\lib\net20\OpenTK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.GLControl.1.1.2225.0\lib\net20\OpenTK.GLControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.5\lib\ZedGraph.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormModels\DiaHorasModel.cs" />
+    <Compile Include="Forms\V_HistorialEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_HistorialEstudiantes.Designer.cs">
+      <DependentUpon>V_HistorialEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Ingresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Ingresos.Designer.cs">
+      <DependentUpon>V_Ingresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_RegistroNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_RegistroNota.Designer.cs">
+      <DependentUpon>V_RegistroNota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_ReporteEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_ReporteEstudiante.Designer.cs">
+      <DependentUpon>V_ReporteEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_ReporteIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_ReporteIngresos.Designer.cs">
+      <DependentUpon>V_ReporteIngresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormValidation\ControlExtensions.cs" />
+    <Compile Include="FormModels\ClaseModel.cs" />
+    <Compile Include="FormModels\EstudianteModel.cs" />
+    <Compile Include="FormModels\InstrumentoModel.cs" />
+    <Compile Include="FormModels\ProfesorModel.cs" />
+    <Compile Include="Forms\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarEstudiante.Designer.cs">
+      <DependentUpon>V_AgregarModificarEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarInstrumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarInstrumento.Designer.cs">
+      <DependentUpon>V_AgregarModificarInstrumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarClase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarClase.Designer.cs">
+      <DependentUpon>V_AgregarModificarClase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarCurso.Designer.cs">
+      <DependentUpon>V_AgregarModificarCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarProfesor.Designer.cs">
+      <DependentUpon>V_AgregarModificarProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Clases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Clases.Designer.cs">
+      <DependentUpon>V_Clases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Cursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Cursos.Designer.cs">
+      <DependentUpon>V_Cursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Estudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Estudiantes.Designer.cs">
+      <DependentUpon>V_Estudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Instrumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Instrumentos.Designer.cs">
+      <DependentUpon>V_Instrumentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Matricula.Designer.cs">
+      <DependentUpon>V_Matricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Mensualidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Mensualidad.Designer.cs">
+      <DependentUpon>V_Mensualidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\V_Profesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_Profesores.Designer.cs">
+      <DependentUpon>V_Profesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormValidation\Validation.cs" />
+    <Compile Include="Helpers\DataTableHelper.cs" />
+    <Compile Include="Helpers\FormExtensions.cs" />
+    <Compile Include="Helpers\NetworkConnection.cs" />
+    <Compile Include="Helpers\SharedFolderHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\V_AgregarModificarEncargado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\V_AgregarModificarEncargado.Designer.cs">
+      <DependentUpon>V_AgregarModificarEncargado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormValidation\Validador.cs" />
+    <Compile Include="Reportes\ReportesDataSet.cs">
+      <DependentUpon>ReportesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReportesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportesDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_AgregarModificarEstudiante.resx">
+      <DependentUpon>V_AgregarModificarEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_AgregarModificarInstrumento.resx">
+      <DependentUpon>V_AgregarModificarInstrumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_AgregarModificarClase.resx">
+      <DependentUpon>V_AgregarModificarClase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_AgregarModificarCurso.resx">
+      <DependentUpon>V_AgregarModificarCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_AgregarModificarProfesor.resx">
+      <DependentUpon>V_AgregarModificarProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Clases.resx">
+      <DependentUpon>V_Clases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Cursos.resx">
+      <DependentUpon>V_Cursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Estudiantes.resx">
+      <DependentUpon>V_Estudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_HistorialEstudiantes.resx">
+      <DependentUpon>V_HistorialEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Ingresos.resx">
+      <DependentUpon>V_Ingresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Instrumentos.resx">
+      <DependentUpon>V_Instrumentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Matricula.resx">
+      <DependentUpon>V_Matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Mensualidad.resx">
+      <DependentUpon>V_Mensualidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_Profesores.resx">
+      <DependentUpon>V_Profesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_RegistroNota.resx">
+      <DependentUpon>V_RegistroNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_ReporteEstudiante.resx">
+      <DependentUpon>V_ReporteEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\V_ReporteIngresos.resx">
+      <DependentUpon>V_ReporteIngresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\V_AgregarModificarEncargado.resx">
+      <DependentUpon>V_AgregarModificarEncargado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteEstudiante.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteIngresos.rdlc" />
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Reportes\ReportesDataSet.xsc">
+      <DependentUpon>ReportesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\ReportesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportesDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\ReportesDataSet.xss">
+      <DependentUpon>ReportesDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\1490221296_books_add.png" />
+    <Content Include="Images\1490221322_save_accept.png" />
+    <Content Include="Images\1490221329_img-landscape.png" />
+    <Content Include="Images\1490221351_user_male_add.png" />
+    <Content Include="Images\1490221368_Accept.png" />
+    <Content Include="Images\1490221389_books_edit.png" />
+    <Content Include="Images\1490221421_user_male_accept.png" />
+    <Content Include="Images\1490221701_webcam.png" />
+    <Content Include="Images\1490221757_Add.png" />
+    <Content Include="Images\1490221808_books_delete.png" />
+    <Content Include="Images\1490221922_remove.png" />
+    <Content Include="Images\1490221973_user_male_edit.png" />
+    <Content Include="Images\1490222071_mail_go.png" />
+    <Content Include="Images\1490222180_delete.png" />
+    <Content Include="Images\1490223629_credit-cards.png" />
+    <Content Include="Images\1490223707_pencil.png" />
+    <Content Include="Images\1490223725_search.png" />
+    <Content Include="Images\1490224819_user_male_delete.png" />
+    <Content Include="Images\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Conservatorio.BL\Conservatorio.BL.csproj">
+      <Project>{4E2147F9-489D-4A07-980C-35C6CA6F02F3}</Project>
+      <Name>Conservatorio.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Conservatorio.DATOS\Conservatorio.DATOS.csproj">
+      <Project>{a50e7a40-e4fe-4105-8569-0254e81eea18}</Project>
+      <Name>Conservatorio.DATOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EmguCV.3.1.0.1\build\EmguCV.props'))" />
+    <Error Condition="!Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EmguCV.3.1.0.1\build\EmguCV.targets'))" />
+  </Target>
+  <Import Project="..\packages\EmguCV.3.1.0.1\build\EmguCV.targets" Condition="Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ReportesStoreContainer" CdmEntityContainer="Entities">
+    <FunctionImportMapping FunctionImportName="ObtenerReporteIngresos" FunctionName="Reportes.Store.ObtenerReporteIngresos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Reportes.ObtenerReporteIngresos_Result">
+          <ScalarProperty Name="IdPersona" ColumnName="IdPersona" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="Mensualidad" ColumnName="Mensualidad" />
+          <ScalarProperty Name="Multa" ColumnName="Multa" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

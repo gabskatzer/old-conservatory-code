@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ReportesStoreContainer" CdmEntityContainer="ConservatorioNHibernateEntities">
+    <FunctionImportMapping FunctionImportName="ObtenerReporteEstudiante" FunctionName="Reportes.Store.ObtenerReporteEstudiante">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Reportes.ObtenerReporteEstudiante_Result">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="NombreCurso" ColumnName="NombreCurso" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          <ScalarProperty Name="Periodo" ColumnName="Periodo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

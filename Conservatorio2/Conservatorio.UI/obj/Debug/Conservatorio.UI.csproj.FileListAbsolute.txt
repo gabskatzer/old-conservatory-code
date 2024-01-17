@@ -1,0 +1,89 @@
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.UI.exe.config
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.UI.exe
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.UI.pdb
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.csprojResolveAssemblyReference.cache
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Inicio.resources
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Properties.Resources.resources
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.csproj.GenerateResource.Cache
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.exe
+C:\Users\Gaby\Documents\Visual Studio 2015\Projects\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.csprojResolveAssemblyReference.cache
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_AgregarModificarEstudiante.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_AgregarModificarClase.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_AgregarModificarCurso.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_AgregarModificarProfesor.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Clases.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Cursos.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Estudiantes.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Instrumentos.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Matricula.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Mensualidad.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Profesores.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Properties.Resources.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_AgregarModificarEncargado.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.csproj.GenerateResource.Cache
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.UI.exe.config
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.UI.exe
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.UI.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.BL.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.DATOS.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Emgu.CV.UI.GL.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Emgu.CV.World.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\OpenTK.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ZedGraph.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.DS.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\NHibernate.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\FluentNHibernate.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Iesi.Collections.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.BL.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.DATOS.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Emgu.CV.World.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\OpenTK.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ZedGraph.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Conservatorio.DS.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\NHibernate.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\FluentNHibernate.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\FluentNHibernate.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Iesi.Collections.xml
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.exe
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.pdb
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_RegistroNota.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.Inicio.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_HistorialEstudiantes.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_Ingresos.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_ReporteEstudiante.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_ReporteIngresos.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\RdlCompile.cache
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\RdlCompile.compiled
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\obj\Debug\Conservatorio.UI.Forms.V_AgregarModificarInstrumento.resources
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gaby\Documents\U\TCU Conservatorio\Conservatorio\Conservatorio.UI\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
